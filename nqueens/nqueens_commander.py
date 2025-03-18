@@ -21,6 +21,7 @@ def at_most_one_commander():
 
 
 
+
 def solve_nqueens(n):
     with Glucose3() as g:
         vars = [[(i * n + j + 1) for j in range(n)] for i in range(n)]
